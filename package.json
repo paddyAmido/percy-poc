@@ -1,0 +1,17 @@
+{
+  "name": "percy_poc",
+  "version": "1.0.0",
+  "description": "poc for percy",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress open",
+    "percy_check": "percy exec -- cypress run"
+  },
+  "author": "Patrick Hendro",
+  "license": "ISC",
+  "devDependencies": {
+    "@percy/cli": "^1.1.0",
+    "@percy/cypress": "^3.1.1",
+    "cypress": "^9.6.0"
+  }
+}
