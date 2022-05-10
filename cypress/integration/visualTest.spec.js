@@ -1,10 +1,10 @@
 import '@percy/cypress';
 
-describe('My First Test', () => {
-    it('Does not do much!', () => {
-      cy.visit('https://www.thegymgroup.com/join-now/find-your-gym/');
+describe('Does my UI match', () => {
+    it('what does google look like today', () => {
+      cy.visit('https://www.yahoo.com');
       expect(true).to.equal(true)
       // Take a snapshot for visual diffing
-      cy.percySnapshot('Find a gym');
+      cy.percySnapshot('google snap shot');
     })
   })
