@@ -1,0 +1,1 @@
+The following POC is a simple cypress test that intergrates PERCY, a visaul regression tool. 
