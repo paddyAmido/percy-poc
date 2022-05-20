@@ -9,7 +9,7 @@ describe('Does my UI match', () => {
     })
 
     it ('what does find your gym look like', () => {
-      cy.visit('https://www.thegymgroup.com/join-now/find-your-gym/');
+      cy.visit('http://127.0.0.1:4200/join-now/find-your-gym/');
       expect(true).to.equal(true)
       // Take a snapshot for visual diffing on TGG
       cy.percySnapshot('Find your gym', );
