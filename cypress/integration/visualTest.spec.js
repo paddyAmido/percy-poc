@@ -2,7 +2,7 @@ import '@percy/cypress';
 
 describe('Does my UI match', () => {
     it('what does google look like today', () => {
-      cy.visit('https://www.yahoo.com');
+      cy.visit('https://www.google.com');
       expect(true).to.equal(true)
       // Take a snapshot for visual diffing
       cy.percySnapshot('google snap shot');
@@ -12,6 +12,6 @@ describe('Does my UI match', () => {
       cy.visit('https://www.thegymgroup.com/join-now/find-your-gym/');
       expect(true).to.equal(true)
       // Take a snapshot for visual diffing on TGG
-      cy.percySnapshot('Find your gym');
+      cy.percySnapshot('Find your gym', );
     })
   })
